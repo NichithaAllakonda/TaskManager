@@ -26,10 +26,10 @@ function Dashboard() {
     localStorage.getItem("token");
 
   useEffect(() => {
+  fetchProjects();
+  fetchTasks();
 
-    fetchProjects();
-    fetchTasks();
-
+  // eslint-disable-next-line
   }, []);
 
   /* ================= FETCH PROJECTS ================= */
