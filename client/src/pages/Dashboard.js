@@ -30,6 +30,7 @@ function Dashboard() {
     fetchProjects();
     fetchTasks();
 
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   /* ================= FETCH PROJECTS ================= */
